@@ -60,7 +60,7 @@ for entries in range(len(df)):
         #print(img[line])
 
         #img = img[line]
-  
+
         filename = filename.replace(" ", "_")
         filename = filename.replace("/", "_")
         print(filename)
@@ -71,8 +71,5 @@ for entries in range(len(df)):
 
         urllib.request.urlretrieve(img[1], filename)
         img = []
-        
+
     except: continue
-
-    
-
